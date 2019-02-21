@@ -104,9 +104,10 @@ class TreeNode extends React.Component {
             return this.renderLoading(decorators);
         }
 
-		console.log(children);
-		console.log('test');
+
         let children = node.folder;
+        console.log(children);
+        console.log('test');
         if (!Array.isArray(children)) {
             children = children ? [children] : [];
         }
